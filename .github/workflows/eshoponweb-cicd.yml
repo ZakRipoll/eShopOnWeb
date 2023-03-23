@@ -8,7 +8,7 @@ env:
   RESOURCE-GROUP: rg-az400-eshoponweb-NAME
   LOCATION: eastus
   TEMPLATE-FILE: .azure/bicep/webapp.bicep
-  SUBSCRIPTION-ID: YOUR-SUBS-ID
+  SUBSCRIPTION-ID:  ${{ secrets.AZURE_CREDENTIALS.subscriptionId }}
   WEBAPP-NAME: az400-webapp-NAME
 
 
