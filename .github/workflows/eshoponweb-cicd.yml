@@ -9,7 +9,7 @@ env:
   LOCATION: eastus
   TEMPLATE-FILE: .azure/bicep/webapp.bicep
   SUBSCRIPTION-ID:  ${{ secrets.AZURE_CREDENTIALS.subscriptionId }}
-  WEBAPP-NAME: az400-webapp-NAME
+  WEBAPP-NAME: az400-webapp-zakripoll-20230323
 
 
 jobs:
